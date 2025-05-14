@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  background-color: #000;
+  color: white;
+}
+
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Custom styling for range input */
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 8px;
+  border-radius: 4px;
+  background: #1e293b;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #0891b2;
+  cursor: pointer;
+}
+
+/* File upload button styling */
+input[type="file"] {
+  display: none;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/art-109/audio-visualizer/static/css/main.0b574550.css",
+    "main.js": "/art-109/audio-visualizer/static/js/main.dc9c1ac9.js",
+    "index.html": "/art-109/audio-visualizer/index.html",
+    "main.0b574550.css.map": "/art-109/audio-visualizer/static/css/main.0b574550.css.map",
+    "main.dc9c1ac9.js.map": "/art-109/audio-visualizer/static/js/main.dc9c1ac9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b574550.css",
+    "static/js/main.dc9c1ac9.js"
+  ]
+}
