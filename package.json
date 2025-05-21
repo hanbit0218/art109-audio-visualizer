@@ -1,22 +1,17 @@
 {
   "name": "audio-visualizer",
   "version": "0.1.0",
-  "homepage": "https://hanbit0218.github.io/art-109/audio-visualizer",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.3.0",
-    "p5": "^1.7.0",
+    "p5": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.14"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -24,8 +19,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -39,10 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1"
   }
 }
